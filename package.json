@@ -1,0 +1,16 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "This application uses https://wwww.openweathermap.org API to fetch current weather conditions based on provided zipcode. It defaults to a zip code in GA (USA) and later user can change zip code. This change persists as zip code data is stored in browser's location storage.",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Ajay Sharma",
+  "homepage": "https://ajaysh73.github.io/WeatherApp/",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
